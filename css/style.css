@@ -174,7 +174,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/fondoRosa.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -193,7 +193,7 @@ h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 37px;
+  font-size: 31px;
   font-weight: 700;
 }
 
@@ -265,7 +265,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #6E2F93;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -458,10 +458,11 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #991b8e;
   text-align: center;
   font-weight: 500;
   position: relative;
+  FONT-WEIGHT: BOLD;
 }
 
 .section-header p {
@@ -572,6 +573,11 @@ h6 {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+#about .about-container .icon-box img{
+  width: 450px;
+  height: 225px;
+  
 }
 
 #about .about-extra {
