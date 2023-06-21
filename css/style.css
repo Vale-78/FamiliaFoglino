@@ -575,9 +575,10 @@ h6 {
   font-size: 14px;
 }
 #about .about-container .icon-box img{
-  width: 450px;
-  height: 225px;
-  
+  width: 471px;
+  height: 260px;
+  border: solid;
+  color: black;
 }
 
 #about .about-extra {
@@ -602,7 +603,7 @@ h6 {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 1px 27px 1px;
+  margin: 0 1px 0px 1px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
