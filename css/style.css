@@ -1351,7 +1351,7 @@ h6 {
     height: 82px;;
     padding: 10px 0;
   }
- 
+
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
@@ -1376,9 +1376,6 @@ h6 {
 
   #why-us .card {
     margin: 0;
-  }
-  .container .fadeInUp {
-    padding: 0%;
   }
 }
 
@@ -1416,16 +1413,10 @@ h6 {
   #testimonials .testimonial-item p {
     margin-left: 0;
   }
-  .container .fadeInUp {
-    padding: 0%;
-  }
 }
 
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
-  }
-  .container .fadeInUp {
-    padding: 0%;
   }
 }
