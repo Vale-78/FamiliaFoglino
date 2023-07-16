@@ -136,7 +136,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 83px;
+  height: 60px;
   padding: 10px 0;
 }
 
@@ -244,10 +244,7 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+
 
 .main-nav,
 .main-nav * {
