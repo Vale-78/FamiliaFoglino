@@ -46,20 +46,25 @@ h6 {
 }
 
 #familia-container {
-  background: url("../img/fondoRosa.png") center bottom no-repeat;
+  background: linear-gradient(to bottom right, rgb(139, 139, 228), pink);
+  display: flex;
+  justify-content: space-around;
 }
 
 #familia-container .familias  .pareja-container img {
-  opacity: 0.4;
+  opacity: 0.9;
   transition: 0.3s;
+  align-items: center;
+  
 }
-#familia-container .familias  .pareja-container h1 {
+#familia-container .familias h1 {
   font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 /* Back to top button */
