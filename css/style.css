@@ -970,8 +970,8 @@ h6 {
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
-  color: #fff;
+  font-size: 14px;
+  color: #8ee8ee;
 }
 
 #team .member .social {
@@ -980,17 +980,25 @@ h6 {
 
 #team .member .social a {
   transition: none;
-  color: #fff;
+  color: #8ee8ee;
 }
-
+#team .member a {
+  transition: none;
+  color: #8ee8ee;
+}
 #team .member .social a:hover {
-  color: #007bff;
+  color: #ccdff4;
 }
 
-#team .member .social i {
-  font-size: 18px;
+#team .member .icon-container {
+  padding-top: 6px;
+  font-size: 22px;
   margin: 0 2px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
 }
+
 
 /* Clients Section
 --------------------------------*/
@@ -1353,6 +1361,12 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+  #team .member h4 {
+    font-weight: 599;
+    margin-bottom: 1px;
+    font-size: 14px;
+    color: #fff;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1374,10 +1388,6 @@ h6 {
   .section-header p {
     width: 100%;
   }
-  #services .container iframe{
-    width: 400;
-    height: 225;
-  }
   
 }
 
@@ -1385,4 +1395,35 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+  #team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 25px;
+  }
+
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 18px;
+    color: #8ee8ee;
+  }
+  
+  #team .member .social {
+    margin-top: 15px;
+  }
+  
+  #team .member .social a {
+    transition: none;
+    color: #8ee8ee;
+    font-size: 15px;
+  }
+  #team .member a {
+    transition: none;
+    color: #8ee8ee;
+    font-size: 18px;
+  }
+  #team .member .social a:hover {
+    color: #ccdff4;
+  }
+  
 }
