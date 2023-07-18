@@ -728,17 +728,7 @@ h6 {
   transform: translateY(-5px);
 }
 
-#services .icon {
-  position: absolute;
-  left: -10px;
-  top: calc(50% - 32px);
-}
 
-#services .icon i {
-  font-size: 64px;
-  line-height: 1;
-  transition: 0.5s;
-}
 
 #services .title {
   margin-left: 40px;
@@ -1384,21 +1374,11 @@ h6 {
   .section-header p {
     width: 100%;
   }
-
-  #testimonials .testimonial-item {
-    text-align: center;
+  #services .container iframe{
+    width: 400;
+    height: 225;
   }
-
-  #testimonials .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
-
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
-    margin-left: 0;
-  }
+  
 }
 
 @media (max-width: 574px) {
