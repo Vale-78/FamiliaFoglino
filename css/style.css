@@ -540,7 +540,7 @@ h6 {
   font-size: 15px;
   padding-bottom: 30px;
   color: #556877;
-  width: 50%;
+  width: 100%;
 }
 
 /* Section with background
@@ -572,21 +572,17 @@ h6 {
   font-size: 32px;
 }
 
-#about .about-container p {
-  line-height: 26px;
-}
-
-#about .about-container p:last-child {
-  margin-bottom: 0;
-}
-
 #about .about-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#about .about-container .icon-box .icon {
+#about .about-container .icon-box .icon,
+#about .container-faceboock .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -614,40 +610,82 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#about .about-container .icon-box .icon i {
+#about .about-container .icon-box .icon i,
+#about .container-faceboock .icon-box i{
   color: #007bff;
   font-size: 24px;
 }
 
-#about .about-container .icon-box:hover .icon {
+#about .about-container .icon-box:hover .icon,
+#about .container-faceboock .icon-box:hover .icon {
   background: #007bff;
 }
 
-#about .about-container .icon-box:hover .icon i {
+#about .about-container .icon-box:hover .icon i,
+#about .container-faceboock .icon-box:hover .icon {
   color: #fff;
 }
 
-#about .about-container .icon-box .title {
-  margin-left: 80px;
+#about .about-container .icon-box .title,
+#about .container-faceboock .icon-box .title{
+  text-align: center;
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-#about .about-container .icon-box .title a {
+#about .about-container .icon-box .title a ,
+#about .container-faceboock .icon-box .title a {
   color: #007bff;
 }
+#about .container-faceboock .icon-box p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: #556877;
+  width: 100%;
 
-#about .about-container .icon-box .description {
+}
+
+#about .about-container .icon-box .description
+#about .container-faceboock .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
 }
-#about .about-container .icon-box img{
+#about .about-container .icon-box img,
+#about .container-faceboock .icon-box img {
   width: 471px;
   height: 260px;
   border: solid;
   color: black;
+}
+#about .significado-container .significado img {
+  width: 471px;
+  height: 260px;
+  border: solid;
+  color: black;
+}
+#about .significado-container .title{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+#about .significado-container .significado .content {
+  background: #fff;
+}
+
+#about .significado-container {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #about .about-extra {
@@ -665,6 +703,12 @@ h6 {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#services .container .videos-container{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #services .box {
